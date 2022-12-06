@@ -1,0 +1,14 @@
+setup.py
+gym_hungry_thirsty/__init__.py
+gym_hungry_thirsty.egg-info/PKG-INFO
+gym_hungry_thirsty.egg-info/SOURCES.txt
+gym_hungry_thirsty.egg-info/dependency_links.txt
+gym_hungry_thirsty.egg-info/requires.txt
+gym_hungry_thirsty.egg-info/top_level.txt
+gym_hungry_thirsty/envs/__init__.py
+gym_hungry_thirsty/envs/hungry_thirsty_env.py
+gym_hungry_thirsty/envs/hungry_thirsty_fitness.py
+gym_hungry_thirsty/envs/hungry_thirsty_nudge_reward.py
+gym_hungry_thirsty/envs/hungry_thirsty_optimal_return.py
+gym_hungry_thirsty/envs/hungry_thirsty_optimal_reward.py
+gym_hungry_thirsty/envs/hungry_thirsty_sparse_reward.py

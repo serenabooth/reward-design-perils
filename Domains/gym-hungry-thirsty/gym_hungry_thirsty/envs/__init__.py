@@ -1,0 +1,1 @@
+from gym_hungry_thirsty.envs.hungry_thirsty_env import HungryThirstyEnv

@@ -1,0 +1,4 @@
+Selected agent: 0
+ALG: PPO
+REWARD: {'hungry and thirsty': -1.0, 'hungry and not thirsty': -0.05, 'not hungry and thirsty': -0.25, 'not hungry and not thirsty': 1.0}
+HYPER_PARAMS: {'gamma': 0.99, 'num_episodes': 2500, 'lr': 0.0001, 'update_steps': 256, 'eps_clip': 0.2, 'entropy_coeff': 0.05, 'reward_scaling_factor': 1}

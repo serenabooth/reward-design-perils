@@ -1,0 +1,4 @@
+Selected agent: 12
+ALG: DDQN
+REWARD: {'hungry and thirsty': -1.0, 'hungry and not thirsty': -1.0, 'not hungry and thirsty': 0.35, 'not hungry and not thirsty': 1.0}
+HYPER_PARAMS: {'gamma': 0.99, 'num_episodes': 1000, 'lr': 0.0001, 'update_steps': 1024, 'batch_size': 128, 'epsilon_min': 0, 'epsilon_decay': 1000, 'reward_scaling_factor': 1}

@@ -1,0 +1,4 @@
+Selected agent: 16
+ALG: A2C
+REWARD: {'hungry and thirsty': -0.05, 'hungry and not thirsty': 0.2, 'not hungry and thirsty': 1.0, 'not hungry and not thirsty': 1.0}
+HYPER_PARAMS: {'gamma': 0.99, 'num_episodes': 1000, 'lr': 0.0001, 'entropy_coeff': 0.001, 'n_step_update': 64, 'reward_scaling_factor': 1}

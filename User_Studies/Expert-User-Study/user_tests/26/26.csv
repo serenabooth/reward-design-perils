@@ -1,0 +1,6 @@
+trial,alg,reward_fn,hyper_params
+0,A2C,"{'hungry and thirsty': -1.0, 'hungry and not thirsty': 0.5, 'not hungry and thirsty': -0.5, 'not hungry and not thirsty': 1.0}","{'gamma': 0.8, 'num_episodes': 1000, 'lr': 0.001, 'entropy_coeff': 0.01, 'n_step_update': 1, 'reward_scaling_factor': 1}"
+1,A2C,"{'hungry and thirsty': -1.0, 'hungry and not thirsty': 0.5, 'not hungry and thirsty': -0.5, 'not hungry and not thirsty': 1.0}","{'gamma': 0.8, 'num_episodes': 1000, 'lr': 0.001, 'entropy_coeff': 0.01, 'n_step_update': 1, 'reward_scaling_factor': 10}"
+2,PPO,"{'hungry and thirsty': -1.0, 'hungry and not thirsty': 0.3, 'not hungry and thirsty': -0.5, 'not hungry and not thirsty': 1.0}","{'gamma': 0.5, 'num_episodes': 1000, 'lr': 0.0001, 'update_steps': 64, 'eps_clip': 0.1, 'entropy_coeff': 0.05, 'reward_scaling_factor': 5}"
+3,PPO,"{'hungry and thirsty': -1.0, 'hungry and not thirsty': 0.3, 'not hungry and thirsty': -0.5, 'not hungry and not thirsty': 1.0}","{'gamma': 0.5, 'num_episodes': 1000, 'lr': 0.0001, 'update_steps': 64, 'eps_clip': 0.3, 'entropy_coeff': 0.05, 'reward_scaling_factor': 5}"
+4,PPO,"{'hungry and thirsty': -1.0, 'hungry and not thirsty': 0.3, 'not hungry and thirsty': -0.5, 'not hungry and not thirsty': 1.0}","{'gamma': 0.5, 'num_episodes': 1000, 'lr': 0.0001, 'update_steps': 64, 'eps_clip': 0.1, 'entropy_coeff': 0.05, 'reward_scaling_factor': 5}"

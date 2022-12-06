@@ -1,0 +1,4 @@
+trial,alg,reward_fn,hyper_params
+0,DDQN,"{'hungry and thirsty': -1.0, 'hungry and not thirsty': 0.4, 'not hungry and thirsty': -0.15, 'not hungry and not thirsty': 1.0}","{'gamma': 0.85, 'num_episodes': 15000, 'lr': 1e-05, 'update_steps': 64, 'batch_size': 256, 'epsilon_min': 0.1, 'epsilon_decay': 10000, 'reward_scaling_factor': 5}"
+1,DDQN,"{'hungry and thirsty': -1.0, 'hungry and not thirsty': -0.05, 'not hungry and thirsty': -0.5, 'not hungry and not thirsty': 1.0}","{'gamma': 0.9, 'num_episodes': 15000, 'lr': 0.0001, 'update_steps': 64, 'batch_size': 256, 'epsilon_min': 0.1, 'epsilon_decay': 5000, 'reward_scaling_factor': 10}"
+2,PPO,"{'hungry and thirsty': -1.0, 'hungry and not thirsty': -0.2, 'not hungry and thirsty': 0.15, 'not hungry and not thirsty': 1.0}","{'gamma': 0.5, 'num_episodes': 15000, 'lr': 0.0001, 'update_steps': 256, 'eps_clip': 0.1, 'entropy_coeff': 0.05, 'reward_scaling_factor': 10}"
