@@ -1,6 +1,9 @@
 # AAAI 2023: The Perils of Trial-and-Error Reward Design: Misdesign through Overfitting and Invalid Task Specifications
+
 Serena Booth, W. Bradley Knox, Julie Shah, Scott Niekum, Peter Stone, and Alessandro Allievi 
+
 Bosch, The University of Texas at Austin, MIT CSAIL, The University of Massachusetts Amherst, Google Research, and Sony AI 
+
 Contact author: sbooth@mit.edu 
 
 ## Codebase Structure
