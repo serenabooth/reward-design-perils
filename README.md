@@ -6,6 +6,16 @@ Serena Booth<sup>1,2,3</sup>, W. Bradley Knox<sup>1,2,4</sup>, Julie Shah<sup>3<
 
 Contact author: sbooth@mit.edu 
 
+## Study Domain: Hungry Thirsty 
+
+<img src="https://user-images.githubusercontent.com/6353393/217291559-d9db4a5c-b1df-4f3f-a2c4-5d26d6c017a7.png" alt="Hungry Thirsty" width="30%">
+
+* We use the Hungry Thirsty domain as a testbed for studying reward design. 
+* In Hungry Thirsty, food is located in one random corner; water in another.
+* The goal is for the agent to eat as much as possible, but the agent can only eat if it’s not thirsty.
+* If the agent drinks, it becomes not thirsty. If the agent doesn’t drink, it becomes thirsty with 10% probability.
+* The optimal policy is for the agent to navigate to the water and drink whenever it's thirsty, but to navigate to the food and eat whenever it's not thirsty. 
+
 ## Codebase Structure
 
 This work is divided into the following directories:
