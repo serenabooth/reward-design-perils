@@ -66,3 +66,16 @@ Data directly related to expert overfitting is in ```User_Studies/Expert-User-St
 
 ## Qualitative Analysis: Thematic Analysis 
 The annotated transcripts for all user studies are located in ```QualitativeAnalysis/AAAI_2023_Reward_Design_Thematic_Analysis```
+
+## Contact and Citation
+For any questions, please contact us at `sbooth@mit.edu`. The paper can be cited as
+```
+@inproceedings{booth2023perils,
+  title={The Perils of Trial-and-Error Reward Design: Misdesign through Overfitting and Invalid Task Specifications},
+  author={Serena Booth and W Bradley Knox and Julie Shah and Scott Niekum and Peter Stone and Alessandro Allievi},
+  booktitle = {Proceedings of the 37th AAAI Conference on Artificial Intelligence (AAAI)},
+  location = {Washington, D.C.},
+  month = {Feb},
+  year = {2023},
+}
+```
